@@ -1,8 +1,7 @@
 "use client";
 
 import { ContactData } from "@/core/data/contact.data";
-// import { faMinus, faPlus } from "@fortawesome/free-solid-svg-icons";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import { useState } from "react";
 
 function Faq() {
