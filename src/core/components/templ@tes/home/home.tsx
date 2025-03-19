@@ -46,7 +46,7 @@ export default function HomeAll() {
 			<Team />
 			<MakingContact />
 			<HeaderSection
-				title="Vous Faites Partir De Nos Cibles"
+				title="Vous êtes au cœur de notre vision"
 				subtitle="Rejoignez ceux que nous aidons à atteindre l'excellence."
 				customTitleSize="52px"
 				customSubtitleSize="16px"

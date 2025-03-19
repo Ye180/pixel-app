@@ -6,24 +6,24 @@ export interface HowWeWorkItem {
   export const HowWeWorkData: HowWeWorkItem[] = [
     {
       id: 1,
-      label: "Audit Initial",
+      label: "Rencontre initiale pour analyse et audit",
       },
     {
       id: 2,
-      label: "Planification Stratégique",
+      label: "Rapport d’audit",
     },
     {
       id: 3,
-      label: "Mise en Œuvre",
+      label: "Elaboration et proposition de la strategie",
     },
     {
       id: 4,
-      label: "Suivi et Optimisation",
+      label: "Debut des activites",
     
     },
     {
       id: 5,
-      label: "Formation et Autonomisation",
+      label: "Reporting et optimiastion",
     },
     {
       id: 6,

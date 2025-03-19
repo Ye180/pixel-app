@@ -1,6 +1,6 @@
 import { ValuesData } from "@/core/data/valeur.data";
 
-const CardValue = () => {
+const  CardValue = () => {
 	return (
 		<>
 			{ValuesData.map((value) => (

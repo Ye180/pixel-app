@@ -1,34 +1,28 @@
 export const ValuesData = [
 	{
 		id: 1,
-		name: "Stratégie Digitale",
+		name: "Une expertise éprouvée.",
 		link: "#strategie-digitale",
 		description:
-			"Conception et mise en place de stratégies digitales sur mesure pour améliorer votre visibilité en ligne et augmenter vos performances.",
+			"Chez PIXDIGIT, notre équipe d'experts en marketing numérique met son expérience au service de votre succès, en optimisant votre présence en ligne pour des résultats concrets.",
 		// icon: faChartLine, // Icône FontAwesome
 	},
 	{
 		id: 2,
-		name: "Référencement SEO",
+		name: "Des stratégies sur mesure.",
 		link: "#referencement-seo",
-		description:
-			"Optimisation du contenu et de la structure de votre site web pour un meilleur classement sur les moteurs de recherche comme Google.",
-		// icon: faSearch, // Icône FontAwesome
+		description:"Chez PIXDIGIT, nous adaptons chaque stratégie à vos objectifs pour maximiser votre impact."		// icon: faSearch, // Icône FontAwesome
 	},
 	{
 		id: 3,
-		name: "Publicité en Ligne",
-		link: "#publicite-en-ligne",
-		description:
-			"Gestion de campagnes publicitaires sur Google Ads, Facebook Ads, et d’autres plateformes pour booster votre acquisition de trafic.",
-		// icon: faBullhorn, // Icône FontAwesome
+		name: "Approche centrée sur le client.",
+		link: "#Approche-centrée-sur-le-client.",
+		description:"Nous privilégions une relation transparente et un service exceptionnel pour assurer votre succès."		// icon: faBullhorn, // Icône FontAwesome
 	},
 	{
 		id: 4,
-		name: "Création de Contenu",
-		link: "#creation-de-contenu",
-		description:
-			"Production de contenus créatifs et engageants, adaptés à votre marque, pour les réseaux sociaux, blogs, et autres canaux numériques.",
-		// icon: faPenNib, // Icône FontAwesome
+		name: "Focus sur les données",
+		link: "#Focus-sur-les-données",
+		description:"Grâce à l’analyse des données, nous optimisons vos campagnes pour un meilleur retour sur investissement."		// icon: faPenNib, // Icône FontAwesome
 	},
 ];

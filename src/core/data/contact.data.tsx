@@ -35,27 +35,22 @@ export const ContactData = {
 
 	faq: [
 		{
-			question: "Qu'est-ce que le marketing digital ?",
-			answer: "Le marketing digital fait référence à toutes les activités de marketing effectuées en ligne pour promouvoir une marque, un produit ou un service à travers différents canaux numériques.",
+			question: "Comment travaillez-vous avec vos clients ?",
+			answer: "Nous commençons par une analyse approfondie de vos besoins, suivie d’une stratégie sur mesure. Nous collaborons étroitement avec vous tout au long du processus pour garantir que nos solutions répondent à vos attentes."
 		},
 		{
-			question: "Quels sont les avantages du marketing digital ?",
-			answer: "Les avantages incluent la portée mondiale, le ciblage précis, l'interaction en temps réel, et la possibilité de mesurer les performances rapidement et efficacement.",
+			question: "Proposez-vous des forfaits ou des services à la carte ?",
+			answer: "Nous proposons des formules adaptées à chaque besoin : des forfaits complets pour une prise en charge globale ou des services spécifiques à la carte."
 		},
 		{
-			question:
-				"Pourquoi est-il important d'avoir une présence en ligne ?",
-			answer: "Avec de plus en plus de consommateurs qui se tournent vers le numérique, il est essentiel pour les entreprises d'être visibles en ligne afin de rester compétitives et de répondre aux besoins des clients.",
+			question: "Quelle est votre zone de couverture géographique ?",
+			answer: "Nos services sont disponibles à l’échelle nationale pour l’instant."
 		},
 		{
-			question: "Quels sont les principaux canaux du marketing digital ?",
-			answer: "Les principaux canaux incluent les moteurs de recherche, les réseaux sociaux, le marketing par e-mail, les publicités en ligne, et les sites web d'entreprise.",
-		},
-		{
-			question: "Quelle est la différence entre le SEO et le SEM ?",
-			answer: "Le SEO (Search Engine Optimization) est un ensemble de techniques visant à améliorer le classement naturel d'un site sur les moteurs de recherche, tandis que le SEM (Search Engine Marketing) inclut le SEO mais aussi les publicités payantes pour améliorer la visibilité.",
-		},
-	],
+			question: "Comment mesurer les résultats de vos services ?",
+			answer: "Nous fournissons des rapports réguliers et détaillés qui incluent des métriques clés (KPI), des analyses de performance et des recommandations stratégiques."
+		}
+	],	
 
 	stat: [
 		{

@@ -5,14 +5,16 @@ import CardItems from "../../organisms/service.item/card/cardItems";
 import Cover from "../../organisms/service.item/cover/cover";
 import PriceItems from "../../organisms/service.item/price.items/price.items";
 import ProcessItems from "../../organisms/service.item/process.items/process.items";
+import Faq from "../../organisms/service.item/faq/Faq";
 
 const ServiceItem = () => {
+
 	return (
 		<div className="space-y-14">
 			<Cover />
 			<CardItems />
 			<HeaderSection
-				title="Notre Processus de developpement"
+				title="Notre Processus de développement"
 				customTitleSize="52px"
 				customSubtitleSize="16px"
 				align="center"

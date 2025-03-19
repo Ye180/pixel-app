@@ -33,7 +33,7 @@ const PriceItem = ({
 				</ol>
 			</div>
 
-			<Button className="relative z-40 cursor-pointer text-blue-950">
+			<Button className="relative cursor-pointer text-blue-950">
 				Commencez Maintenant
 			</Button>
 		</div>

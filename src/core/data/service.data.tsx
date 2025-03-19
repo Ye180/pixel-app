@@ -5,6 +5,7 @@ import {
 	Graph,
 	Marketing,
 } from "../components/atoms/icons/service.icon";
+import { ServiceFaqData } from "./faq.data";
 
 import bootstrap5 from '@/app/img/bootstrap5.png'
 import figma from '@/app/img/figma.png'
@@ -67,23 +68,20 @@ export type ServiceDataProps = {
 	process: ProcessProps[];
 	option: OptionsProps[];
 	stack: StackProps[];
+	faq?: { question: string; answer: string }[]; // Ajout des FAQs
 };
 export const ServiceData: ServiceDataProps[] = [
 	{
 		id: 1,
-		name: "Community Management",
+		name: "Social media management",
 		link: "Community-management",
 		icon: <Marketing />,
 		definitions: [
 			{
-				paragraph: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-						Fugiat doloribus voluptate nulla saepe deleniti odit esse
-						eum amet, quod quas quae vitae.`,
+				paragraph: `Notre agence crée et gère vos communautés sur les réseaux sociaux pour renforcer votre présence et atteindre vos objectifs marketing.`,
 			},
 			{
-				paragraph: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-						Fugiat doloribus voluptate nulla saepe deleniti odit esse
-						eum amet, quod quas quae vitae.`,
+				paragraph: `En fonction de votre activité et de vos objectifs, nous élaborons et déployons des stratégies efficaces qui pourront vous permettre de vous démarquer de la concurrence et d'atteindre vos objectifs.`,
 			},
 		],
 		card: [
@@ -121,38 +119,38 @@ export const ServiceData: ServiceDataProps[] = [
 				icon: <Computer />,
 			},
 		],
-		process: [
-			{
-				id: 1,
-				item: "Discovery and Strategy",
-				paragraph:
-					"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maxime neque pariatur doloribus natus quae reiciendis, voluptate modi praesentium ipsa doloremque et id veniam vitae blanditiis odit. Quo, praesentium obcaecati.",
-			},
-			{
-				id: 2,
-				item: "Discovery and Strategy",
-				paragraph:
-					"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maxime neque pariatur doloribus natus quae reiciendis, voluptate modi praesentium ipsa doloremque et id veniam vitae blanditiis odit. Quo, praesentium obcaecati.",
-			},
-			{
-				id: 3,
-				item: "Discovery and Strategy",
-				paragraph:
-					"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maxime neque pariatur doloribus natus quae reiciendis, voluptate modi praesentium ipsa doloremque et id veniam vitae blanditiis odit. Quo, praesentium obcaecati.",
-			},
-			{
-				id: 4,
-				item: "Discovery and Strategy",
-				paragraph:
-					"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maxime neque pariatur doloribus natus quae reiciendis, voluptate modi praesentium ipsa doloremque et id veniam vitae blanditiis odit. Quo, praesentium obcaecati.",
-			},
-			{
-				id: 5,
-				item: "Discovery and Strategy",
-				paragraph:
-					"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maxime neque pariatur doloribus natus quae reiciendis, voluptate modi praesentium ipsa doloremque et id veniam vitae blanditiis odit. Quo, praesentium obcaecati.",
-			},
-		],
+		process: [  
+			{  
+			  id: 1,  
+			  item: "Analyse et audit",  
+			  paragraph:  
+				"Nous échangeons sur vos objectifs commerciaux et analysons votre positionnement digital actuel. Un audit approfondi de vos performances marketing nous permet d’identifier les axes d’amélioration.",  
+			},  
+			{  
+			  id: 2,  
+			  item: "Stratégie digitale",  
+			  paragraph:  
+				"Nous élaborons une stratégie sur mesure en sélectionnant les canaux digitaux adaptés et en planifiant un contenu pertinent pour maximiser votre visibilité.",  
+			},  
+			{  
+			  id: 3,  
+			  item: "Création de contenu",  
+			  paragraph:  
+				"Nous rédigeons des contenus optimisés et concevons des supports visuels attractifs avant de programmer leur diffusion sur les plateformes adaptées.",  
+			},  
+			{  
+			  id: 4,  
+			  item: "Lancement et suivi",  
+			  paragraph:  
+				"Nous lançons vos campagnes publicitaires et suivons leurs performances en temps réel pour ajuster les stratégies en fonction des résultats obtenus.",  
+			},  
+			{  
+			  id: 5,  
+			  item: "Reporting et optimisation",  
+			  paragraph:  
+				"Nous analysons les performances, optimisons les actions en cours et proposons des ajustements stratégiques pour améliorer votre retour sur investissement à long terme.",  
+			},  
+		  ],
 		option: [
 			{
 				name: "PME & E-COMMERCE",
@@ -483,6 +481,7 @@ export const ServiceData: ServiceDataProps[] = [
 				stack:Javascript,
 				},
 		],
+		faq: ServiceFaqData["socialMedia"],
 	},
 	{
 		id: 2,
@@ -491,14 +490,10 @@ export const ServiceData: ServiceDataProps[] = [
 		icon: <Design />,
 		definitions: [
 			{
-				paragraph: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-						Fugiat doloribus voluptate nulla saepe deleniti odit esse
-						eum amet, quod quas quae vitae.`,
+				paragraph: `Votre identité visuelle, c’est l’ensemble des éléments qui compose votre image. Ils doivent être construits méticuleusement pour être impactant, cohérents et adaptés à vos clients.`,
 			},
 			{
-				paragraph: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-						Fugiat doloribus voluptate nulla saepe deleniti odit esse
-						eum amet, quod quas quae vitae.`,
+				paragraph: `Depuis la conception de votre logo à la conception de vos éléments de communication (flyers, kakemonos, cartes de visite, signature e-mail…) notre équipe pense avec vous et pour vous des designs qui vous représente. `,
 			},
 		],
 		card: [
@@ -536,32 +531,26 @@ export const ServiceData: ServiceDataProps[] = [
 				icon: <Graph />,
 			},
 		],
-		process: [
-			{
-				id: 1,
-				item: "Discovery and Strategy",
-				paragraph:
-					"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maxime neque pariatur doloribus natus quae reiciendis, voluptate modi praesentium ipsa doloremque et id veniam vitae blanditiis odit. Quo, praesentium obcaecati.",
-			},
-			{
-				id: 2,
-				item: "Discovery and Strategy",
-				paragraph:
-					"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maxime neque pariatur doloribus natus quae reiciendis, voluptate modi praesentium ipsa doloremque et id veniam vitae blanditiis odit. Quo, praesentium obcaecati.",
-			},
-			{
-				id: 3,
-				item: "Discovery and Strategy",
-				paragraph:
-					"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maxime neque pariatur doloribus natus quae reiciendis, voluptate modi praesentium ipsa doloremque et id veniam vitae blanditiis odit. Quo, praesentium obcaecati.",
-			},
-			{
-				id: 4,
-				item: "Discovery and Strategy",
-				paragraph:
-					"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maxime neque pariatur doloribus natus quae reiciendis, voluptate modi praesentium ipsa doloremque et id veniam vitae blanditiis odit. Quo, praesentium obcaecati.",
-			},
-		],
+		process: [  
+			{  
+			  id: 1,  
+			  item: "Compréhension de votre marque",  
+			  paragraph:  
+				"Nous débutons par une immersion dans votre univers pour cerner votre identité, vos valeurs et vos ambitions, afin d’orienter nos créations avec justesse.",  
+			},  
+			{  
+			  id: 2,  
+			  item: "Définition des orientations",  
+			  paragraph:  
+				"Nous posons les bases de votre identité visuelle en déterminant les axes créatifs qui reflèteront le mieux votre marque et assureront sa cohérence.",  
+			},  
+			{  
+			  id: 3,  
+			  item: "Expression de votre identité",  
+			  paragraph:  
+				"Nous déployons votre identité visuelle sur l’ensemble de vos supports de communication, transformant les concepts en créations concrètes et impactantes.",  
+			},  
+		  ],
 		option: [
 			{
 				name: "Identite Visuelle",
@@ -643,11 +632,12 @@ export const ServiceData: ServiceDataProps[] = [
 				stack:canva,
 				},		
 		],
+		faq: ServiceFaqData["graphicDesign"],
 	},
 
 	{
 		id: 3,
-		name: "Audio visuelle",
+		name: "Production audio visuelle",
 		link: "audio-visuelle",
 		icon: <Audio />,
 		definitions: [
@@ -697,32 +687,26 @@ export const ServiceData: ServiceDataProps[] = [
 				icon: <Marketing />,
 			},
 		],
-		process: [
-			{
-				id: 1,
-				item: "Discovery and Strategy",
-				paragraph:
-					"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maxime neque pariatur doloribus natus quae reiciendis, voluptate modi praesentium ipsa doloremque et id veniam vitae blanditiis odit. Quo, praesentium obcaecati.",
-			},
-			{
-				id: 2,
-				item: "Discovery and Strategy",
-				paragraph:
-					"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maxime neque pariatur doloribus natus quae reiciendis, voluptate modi praesentium ipsa doloremque et id veniam vitae blanditiis odit. Quo, praesentium obcaecati.",
-			},
-			{
-				id: 3,
-				item: "Discovery and Strategy",
-				paragraph:
-					"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maxime neque pariatur doloribus natus quae reiciendis, voluptate modi praesentium ipsa doloremque et id veniam vitae blanditiis odit. Quo, praesentium obcaecati.",
-			},
-			{
-				id: 4,
-				item: "Discovery and Strategy",
-				paragraph:
-					"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maxime neque pariatur doloribus natus quae reiciendis, voluptate modi praesentium ipsa doloremque et id veniam vitae blanditiis odit. Quo, praesentium obcaecati.",
-			},
-		],
+		process: [  
+			{  
+			  id: 1,  
+			  item: "Event Planning",  
+			  paragraph:  
+				"Nous transformons votre concept en un événement structuré après une rencontre préalable pour comprendre vos attentes et objectifs.",  
+			},  
+			{  
+			  id: 2,  
+			  item: "Visite des lieux",  
+			  paragraph:  
+				"Nous effectuons une reconnaissance des lieux pour anticiper les besoins logistiques et assurer une organisation optimale.",  
+			},  
+			{  
+			  id: 3,  
+			  item: "Matériel médiatique",  
+			  paragraph:  
+				"Nous prenons en charge toute la logistique audiovisuelle, en mettant à disposition du matériel de haute qualité pour des photos et vidéos en haute définition.",  
+			},  
+		  ],
 		option: [
 			{
 				name: "Film Institutionnel",
@@ -807,11 +791,12 @@ export const ServiceData: ServiceDataProps[] = [
 				},		
 		
 		],
+		faq: ServiceFaqData["audiovisualProduction"],
 	},
 
 	{
 		id: 4,
-		name: "Developpement D'Application",
+		name: "Developpement web & mobile",
 		link: "developpement-d-apllication",
 		icon: <Computer />,
 		definitions: [
@@ -864,29 +849,42 @@ export const ServiceData: ServiceDataProps[] = [
 		process: [
 			{
 				id: 1,
-				item: "Discovery and Strategy",
+				item: "Analyse des besoins",
 				paragraph:
-					"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maxime neque pariatur doloribus natus quae reiciendis, voluptate modi praesentium ipsa doloremque et id veniam vitae blanditiis odit. Quo, praesentium obcaecati.",
+					"Nous définissons ensemble vos objectifs, analysons vos attentes et rédigeons un cahier des charges détaillé pour assurer une base solide au projet.",
 			},
 			{
 				id: 2,
-				item: "Discovery and Strategy",
+				item: "Conception graphique",
 				paragraph:
-					"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maxime neque pariatur doloribus natus quae reiciendis, voluptate modi praesentium ipsa doloremque et id veniam vitae blanditiis odit. Quo, praesentium obcaecati.",
+					"Nous élaborons le parcours utilisateur en tenant compte de l’ergonomie et de l’esthétique, puis nous proposons des maquettes interactives que nous affinons ensemble jusqu'à validation.",
 			},
 			{
 				id: 3,
-				item: "Discovery and Strategy",
+				item: "Développement",
 				paragraph:
-					"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maxime neque pariatur doloribus natus quae reiciendis, voluptate modi praesentium ipsa doloremque et id veniam vitae blanditiis odit. Quo, praesentium obcaecati.",
+					"L’application est conçue selon vos exigences avec des technologies performantes, tout en optimisant l’expérience utilisateur pour une navigation fluide et intuitive.",
 			},
 			{
 				id: 4,
-				item: "Discovery and Strategy",
+				item: "Phase de tests",
 				paragraph:
-					"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maxime neque pariatur doloribus natus quae reiciendis, voluptate modi praesentium ipsa doloremque et id veniam vitae blanditiis odit. Quo, praesentium obcaecati.",
+					"Nous effectuons une série de tests rigoureux pour vérifier chaque fonctionnalité, détecter et corriger les éventuelles erreurs afin d’assurer un produit stable et performant.",
+			},
+			{
+				id: 5,
+				item: "Déploiement",
+				paragraph:
+					"Nous finalisons le projet en procédant à l’achat du nom de domaine, à la configuration de l’hébergement et à la mise en ligne de votre application en toute sécurité.",
+			},
+			{
+				id: 6,
+				item: "Support et formation",
+				paragraph:
+					"Nous vous accompagnons dans la prise en main de votre site grâce à un guide d’usage détaillé, des sessions de formation et une assistance technique pour assurer un usage optimal.",
 			},
 		],
+		
 		option: [
 			{
 				name: "",
@@ -973,5 +971,7 @@ export const ServiceData: ServiceDataProps[] = [
 				stack:nodejs,
 				},
 		],
+		faq: ServiceFaqData["webDevelopment"]
+
 	},
 ];
